@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    min-height: 75px;
+    background-color: #262626;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu_bar {
+    width: 40%;
+    float: right;
+}
+
+
+.menu_bar ul li:first-child{
+    list-style-type: none;
+}
+
+.menu_bar ul li{
+    float: left;
+}
+
+.menu_bar ul li a{
+    color: #D9D9D9;
+    display: block;
+    padding: 28px 54px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.menu_bar ul li a:hover{
+    color: red;
+}
+
+
+.slider {
+    overflow: hidden;
+    min-height: 400px;
+    background-color: #2A2A2A;
+}
+
+.slider_caption {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.slider_caption h1{
+    font-size: 55px;
+    color: #D9D9D9;
+    font-weight: 100; 
+}
+
+.slider_caption p{
+    color: #D9D9D9;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 36px;
+}
+
+.red_color{
+    color: #B9534E;
+    font-size: 24PX;
+}
+
+.slider_caption button{
+    margin-top: 35px;
+    background-color: #FF6760;
+    color: white;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 6px;
+    font-size: 20PX;
+}
+
+.slider_caption h1 .span{
+    font-weight: bold;
+}
+
+.content {
+    overflow: hidden;  
+}
+
+.single_item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 3% 1.6%;
+}
+
+.icon{
+    }
+
+.icon{
+    color: #616161
+}
+
+.single_item h3{
+    color: #616161;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.single_item p{
+    color: #616161;
+    margin-top: 14px;
+    font-size: 25px;
+}
+
+
+.footer{
+    overflow: hidden;
+    background-color: #2A2A2A;
+    min-height: 250px;
+}
+
+.footer_content {
+    color:#D9D9D9 ;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    
+}
+
+.footer_content p{
+    color: #616161;
+    font-size: 28px;
+}
+
+.footer_content h1{
+    color: #E0E0E0;
+    font-size: 35px;
+}
+
+.social_icon {
+    margin-top: 16px;
+}
+
+.social_icon .circle_twitter{
+    color: #FFFFFF;
+    background-color: #5DAED5;
+    font-size: 24px;
+    padding:13px;
+    border-radius: 24px;
+}
+
+.social_icon .circle_facebook{
+    color: #FFFFFF;
+    background-color: #4470CF;;
+    font-size: 24px;
+    padding: 13PX 18PX;
+    border-radius: 24px;
+    
+}
+
+
+
+
+
+
